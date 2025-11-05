@@ -1,0 +1,48 @@
+#vcban-label {
+  --margin-x: 0.6em;
+  --margin-y: 0.1em;
+  --padding-x: 0.6em;
+  --padding-y: 0.1em;
+  position: relative;
+  margin-top: var(--margin-y);
+  margin-bottom: var(--margin-y);
+  margin-left: var(--margin-x);
+  margin-right: var(--margin-x);
+  padding-top: var(--padding-y);
+  padding-bottom: var(--padding-y);
+  padding-left: var(--padding-x);
+  padding-right: var(--padding-x);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+#vcban-label.c-voice {
+  background-color: rgb(21, 179, 113);
+}
+
+#vcban-label.c-muted {
+  background-color: rgb(230, 50, 50);
+}
+
+#vcban-label * {
+  color: rgb(255, 255, 255) !important;
+}
+
+#vcban-label > span {
+  line-height: 1.2em;
+}
+
+#vcban-icon {
+  display: flex;
+  align-items: center;
+}
+
+#vcban-icon > svg {
+  height: 60%;
+}
+
+#vcban-value {
+  min-width: 3em;
+  font-family: 'Arial', 'sans-serif' !important;
+  font-weight: 600;
+}

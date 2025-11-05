@@ -1,0 +1,26 @@
+{
+    "isVoiceEnabled": false,
+    "isUserOptIn": true,
+    "isUserEligible": false,
+    "isBanned": true,
+    "banReason": 7,
+    "bannedUntil": {
+        "Seconds": 1762290362,
+        "Nanos": 282000000
+    },
+    "canVerifyAgeForVoice": false,
+    "isVerifiedForVoice": false,
+    "denialReason": 6,
+    "isOptInDisabled": false,
+    "hasEverOpted": true,
+    "isAvatarVideoEnabled": true,
+    "isAvatarVideoOptIn": true,
+    "isAvatarVideoOptInDisabled": false,
+    "isAvatarVideoEligible": true,
+    "hasEverOptedAvatarVideo": true,
+    "userHasAvatarCameraAlwaysAvailable": false,
+    "canVerifyPhoneForVoice": false,
+    "seamlessVoiceStatus": 0,
+    "allowVoiceDataUsage": false,
+    "seamlessVoiceVariant": ""
+}

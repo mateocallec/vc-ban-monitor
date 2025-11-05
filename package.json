@@ -1,0 +1,42 @@
+{
+  "name": "vc-ban-monitor",
+  "version": "1.0.0",
+  "description": "VC Ban Monitor is a Chrome extension for Roblox that displays your voice chat ban status and a countdown timer.",
+  "main": "background.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.js' '**/*.css' '**/*.json'",
+    "build": "npm run build:clean && npm run build:init && npm run build:pack && npm run build:extension && npm run build:archive",
+    "build:clean": "rm -rf dist",
+    "build:init": "mkdir -p dist/package && mkdir -p .private",
+    "build:pack": "rsync -av --exclude='.private' --exclude='dist' --exclude='docs' --exclude='scripts' --exclude='node_modules' --exclude='package.json' --exclude='package-lock.json' --exclude='.*' --exclude='*.md' --exclude='*.md' ./ dist/package",
+    "build:extension": "cd dist/package && crx pack . -o ../vc-ban-monitor.crx -p ../../.private/vc-ban-monitor.pem && cd ../..",
+    "build:archive": "cd dist/package && zip -r ../vc-ban-monitor.zip . && cd ../.."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateocallec/vc-ban-monitor.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "roblox",
+    "voicechat",
+    "vc",
+    "ban",
+    "monitor",
+    "timer"
+  ],
+  "author": "Matéo Florian Callec <mateo@callec.net>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mateocallec/vc-ban-monitor/issues"
+  },
+  "homepage": "https://github.com/mateocallec/vc-ban-monitor#readme",
+  "devDependencies": {
+    "crx": "^5.0.1",
+    "prettier": "3.6.2"
+  }
+}

@@ -1,0 +1,20 @@
+# Private
+.private/
+*.pem
+
+# Node modules
+/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Distribution & Chrome Extension generated files
+/dist/
+*.crx
+*.zip
+
+# VS Code settings
+.vscode/
+*.code-workspace
