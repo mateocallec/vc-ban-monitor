@@ -1,19 +1,31 @@
 {
   "manifest_version": 3,
-  "name": "VC Ban Monitor",
-  "version": "1.0.0",
+  "name": "VC Ban Monitor for Roblox",
+  "version": "1.1.0",
   "author": "Matéo Florian Callec <mateo@callec.net>",
   "description": "VC Ban Monitor is a Chrome extension for Roblox that displays your voice chat ban status and a countdown timer.",
-  "permissions": ["storage", "alarms"],
-  "host_permissions": ["https://*.roblox.com/*", "https://voice.roblox.com/*"],
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://*.roblox.com/*",
+    "https://voice.roblox.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["*://*.roblox.com/*"],
-      "js": ["content_script.js"],
-      "css": ["inject.css"],
+      "matches": [
+        "*://*.roblox.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "css": [
+        "inject.css"
+      ],
       "run_at": "document_idle"
     }
   ],

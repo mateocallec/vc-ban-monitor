@@ -11,7 +11,7 @@
 
 <hr />
 
-**VC Ban Monitor** is a Chrome extension designed for Roblox players. It tracks your voice chat ban status directly on the Roblox website and displays a timer for when your ban will be lifted, saving you the hassle of repeatedly rejoining the game to check.
+**VC Ban Monitor for Roblox** is a Chrome extension designed for Roblox players. It tracks your voice chat ban status directly on the Roblox website and displays a timer for when your ban will be lifted, saving you the hassle of repeatedly rejoining the game to check.
 
 ---
 
