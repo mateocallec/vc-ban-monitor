@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://github.com/mateocallec/vc-ban-monitor/releases"><img src="https://img.shields.io/github/v/release/mateocallec/vc-ban-monitor?label=lastest%20release&color=white" alt="Latest release" /></a>
-    <a href="https://chromewebstore.google.com/detail/vc-ban-monitor/akkppjbknlajdlinelokpklkenpecmen"><img src="https://img.shields.io/badge/platform-Chrome-blue?logo=google-chrome&logoColor=blue" alt="Chrome Extension" /></a>
+    <a href="https://chromewebstore.google.com/detail/vc-ban-monitor-for-roblox/akkppjbknlajdlinelokpklkenpecmen"><img src="https://img.shields.io/badge/platform-Chrome-blue?logo=google-chrome&logoColor=blue" alt="Chrome Extension" /></a>
 </div>
 
 <hr />
